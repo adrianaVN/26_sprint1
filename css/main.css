@@ -1,0 +1,137 @@
+/* Inserta tu codigo aqui */
+
+/* Responsive */
+header{
+	/* width: 100%; */
+	background-color: #050505;
+}
+#btn-menu{
+	display: none;
+}
+.color{
+	background-color: #301C3E;
+}
+
+header label{
+	display: none; 
+	width:30px;
+	height: 30px;
+	padding: 10px;
+}
+.menu ul{
+	margin:0;
+	list-style: none;
+	padding: 1%;
+	display: flex;
+	margin-top: 5%;
+
+}
+li{
+	margin-left: 2%;
+	text-decoration: none;
+	list-style: none;
+	color: white;
+}
+#logo{
+	width: 40%;
+	height: 30%;
+	margin-left: 25%;
+}
+.text-center{
+	text-align: center;
+}
+.bg{
+	background-image: url("../image/header-image.jpg");
+	background-size: 100%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	background-repeat: no-repeat;
+	height: 30%;
+	margin-left: 9%;
+	margin-right: 9%;
+	/* width: 70%;
+	height: 400px;
+	margin: 5% 15% */
+	}
+.caja{
+	background-color: #111010;
+	opacity: 0.8;
+	/* width: 30%; */
+	/* padding-top: 4%;  */
+	/* padding-bottom: 4% */
+
+}
+.image{
+	width: 90%;
+	height: 80%;
+	box-sizing: border-box;
+}
+#image1{
+	/* margin-left: 7%;
+	margin-right: 4%; */
+	/*padding: 2%;*/
+
+}
+/* #image2{
+ margin-left: 10%;
+} */
+.flor{
+	width: 90%;
+	height: 50%;
+	margin-left: 3%;
+}
+.fondo{
+	background-color: #0D0D0D;
+	width: 90%;
+	margin-left:5%;
+	padding: 5%;
+}
+.espacio{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.gris{
+	background-color: #0D0D0D;
+	margin-left: 5%;
+	/* margin-right: 5%; */
+	padding: 4%;
+	width: 88%;
+}
+iframe{
+	width:88%;
+	height:330px;
+	margin-left: 5%; 
+}
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+	.image{
+		width: 100%;
+	}
+	
+	header label{
+		display: block; */
+	}
+	.menu{
+		position: absolute;
+		background-color: #080808;
+		width: 30%;
+		margin-left: -200%;
+		}
+
+	.menu ul{
+		flex-direction: column;
+	}
+
+	.menu li{
+		border-top: 1px solid #FFFFFF;
+	}
+	#btn-menu:checked - .menu{
+		margin: 0;
+
+	}
+
+}
