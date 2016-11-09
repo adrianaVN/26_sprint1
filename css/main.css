@@ -1,175 +1,176 @@
-/* Inserta tu codigo aqui */
+
+  /* Inserta tu codigo aqui */
 
 /* Responsive */
 header{
-	background-color: #050505;
+  background-color: #050505;
 }
 #btn-menu{
-	display: none;
+  display: none;
 }
 .color{
-	background-color: #301C3E;
+  background-color: #301C3E;
 }
 
 header label{
-	display: none; 
-	width:30px;
-	height: 30px;
-	padding: 10px;
+  display: none; 
+  width:30px;
+  height: 30px;
+  padding: 10px;
 }
 .menu ul{
-	margin:0;
-	list-style: none;
-	padding: 1%;
-	display: flex;
-	margin-top: 5%;
+  margin:0;
+  list-style: none;
+  padding: 1%;
+  display: flex;
+  margin-top: 5%;
 
 }
 li{
-	margin-left: 2%;
-	text-decoration: none;
-	list-style: none;
-	color: white;
+  margin-left: 2%;
+  text-decoration: none;
+  list-style: none;
+  color: white;
 }
 #logo{
-	width: 40%;
-	height: 30%;
-	margin-left: 25%;
+  width: 40%;
+  height: 30%;
+  margin-left: 25%;
 }
 .text-center{
-	text-align: center;
+  text-align: center;
 }
 .bg{
-	background-image: url("../image/header-image.jpg");
-	background-size: cover;
-	padding: 3%;
-	background-repeat: no-repeat;
-	}
+  background-image: url("../image/header-image.jpg");
+  background-size: cover;
+  padding: 3%;
+  background-repeat: no-repeat;
+  }
 .bannerNegro{
-	width: 50%;
-	height: 200px;
-	margin: 10% 25%;
-	padding: 3%;
-	background-color: #0A0A0A;
-	opacity: 0.6; 
+  width: 50%;
+  height: 200px;
+  margin: 10% 25%;
+  padding: 3%;
+  background-color: #0A0A0A;
+  opacity: 0.6; 
 }
 .caja{
-	background-color: #111010;
-	opacity: 0.8;
+  background-color: #111010;
+  opacity: 0.8;
 
 }
 .fondo{
-	background-color: black;
+  background-color: black;
 }
 .image{
-	width: 90%;
-	height: 80%;
-	box-sizing: border-box;
+  width: 90%;
+  height: 80%;
+  box-sizing: border-box;
 }
 .flor{
-	width: 100%;
-	margin-top: 4%;
+  width: 100%;
+  margin-top: 4%;
 }
 .fondo{
-	background-color: #0D0D0D;
-	width: 90%;
-	margin-left:5%;
-	padding: 5%;
+  background-color: #0D0D0D;
+  width: 90%;
+  margin-left:5%;
+  padding: 5%;
 }
 .espacio{
-	margin-top: 2%;
-	margin-bottom: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 .gris{
-	background-color: #0D0D0D;
-	margin-left: 1%;
-	width: 100%;
+  background-color: #0D0D0D;
+  margin-left: 1%;
+  width: 100%;
  
 }
 .gris2{
-	background-color: #0D0D0D;
+  background-color: #0D0D0D;
 }
 .gris3{
-	background-color: #0D0D0D;
-	
-	padding: 2%;
+  background-color: #0D0D0D;
+  
+  padding: 2%;
 }
 .tx{
-	font-family: Courgette;
-	color: yellow;
+  font-family: Courgette;
+  color: yellow;
 }
 .tx2{
-	font-family: Open Sans;
-	color: white;
+  font-family: Open Sans;
+  color: white;
 }
 .perfil{
-	width: 70%;
-	height: 30%;
-	margin-left: 10%;
+  width: 70%;
+  height: 30%;
+  margin-left: 10%;
 }
 
 .pd-3{
-	padding: 3%;
+  padding: 3%;
 }
 
 .icono{
-	height: 35px;
-	width: 35px;
-	border-radius: 100%;
-	text-align: center;
-	padding-top: 6px;
-	color: white;
-	display: inline-block;
-	background-color: #2B0844;
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  text-align: center;
+  padding-top: 6px;
+  color: white;
+  display: inline-block;
+  background-color: #2B0844;
 }
 
 iframe{
-	width:100%;
-	height:350px;
-	border-style: none;
+  width:100%;
+  height:350px;
+  border-style: none;
  
 }
 input{
-	padding: 2%;
-	background-color: #514B55;
-	opacity: 0.5;
-	border-radius: 4px;
-	width: 70%;
+  padding: 2%;
+  background-color: #514B55;
+  opacity: 0.5;
+  border-radius: 4px;
+  width: 70%;
 }
 footer{
-	background-color: #050505;
-	padding: 2%;
-	margin-top: 2%;
+  background-color: #050505;
+  padding: 2%;
+  margin-top: 2%;
 }
 @media screen and (max-width : 920px) {
 
 }
 
 @media screen and (max-width: 600px) {
-	.image{
-		width: 100%;
-	}
-	
-	header label{
-		display: block; */
-	}
-	.menu{
-		position: absolute;
-		background-color: #080808;
-		width: 30%;
-		margin-left: -200%;
-		}
+  .image{
+    width: 100%;
+  }
+  
+  header label{
+    display: block; */
+  }
+  .menu{
+    position: absolute;
+    background-color: #080808;
+    width: 30%;
+    margin-left: -200%;
+    }
 
-	.menu ul{
-		flex-direction: column;
-	}
+  .menu ul{
+    flex-direction: column;
+  }
 
-	.menu li{
-		border-top: 1px solid #FFFFFF;
-	}
-	#btn-menu:checked - .menu{
-		margin: 0;
+  .menu li{
+    border-top: 1px solid #FFFFFF;
+  }
+  #btn-menu:checked - .menu{
+    margin: 0;
 
-	}
+  }
 
 }
